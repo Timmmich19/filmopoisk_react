@@ -1,0 +1,14 @@
+.header {
+  background-color: #333;
+  max-width: 100dvw;
+  padding: 24px 32px 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+  color: #fff;
+}

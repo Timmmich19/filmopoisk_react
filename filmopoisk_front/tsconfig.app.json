@@ -7,6 +7,12 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@public/*": ["public/*"]
+    },
+    "rootDir": "./src" /* Specify the root folder within your source files. */,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
